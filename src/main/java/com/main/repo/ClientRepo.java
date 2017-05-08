@@ -9,5 +9,6 @@ import com.main.dataentity.Client;
 public interface ClientRepo extends JpaRepository<Client, Integer> {
 
 	Client findClientByEmailAndPassword(String email, String password);
-
+	
+	Client findClientByEmail(String email);
 }
