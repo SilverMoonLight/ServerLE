@@ -3,8 +3,7 @@ package com.main.controller;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;
-import org.springframework.security.core.userdetails.UserDetailsService;
+
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.main.config.JWTAuthenticationToken;
 import com.main.dataentity.Client;
-import com.main.service.DataService;
 import com.main.service.DataServiceInterface;
 import com.main.transferobject.ClientTO;
 
@@ -23,26 +22,29 @@ public class ClientController {
 	
 	private Logger logger = Logger.getLogger(ClientController.class);
 	
+	@Autowired
+	DataServiceInterface dataservice;
 	
-	
-	@RequestMapping(value ="/login", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value ="/login", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
-	public Client loginUser(@RequestBody ClientTO clientTO) {
+	public JWTAuthenticationToken loginUser(@RequestBody ClientTO clientTO) {
 		logger.info("Logging in...");
 		logger.info("User name" + clientTO.getEmail() + " Password " +  clientTO.getPassword());
-		//userService.retrieveUser(clientTO.getEmail(), clientTO.getPassword());
-		/*if (client != null) 
-			logger.info("Logged in User +" + client.toString() );
-		else
-			logger.info("No user found");*/
-		return null;
+		JWTAuthenticationToken token = dataservice.retrieveUser(clientTO.getEmail(), clientTO.getPassword());
+		if(token != null) {
+			logger.info("token " + token.getCredentials());
+			return token;
+		} else {
+			token = new JWTAuthenticationToken("no user found");
+			return token;
+		}
 	}
 	
-	@RequestMapping(value ="/message", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value ="/message", method = RequestMethod.GET,  produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
-	public Client createMessage(@RequestBody ClientTO clientTO) {
-		logger.info("User name" + clientTO.getEmail() + " Password " +  clientTO.getPassword());
-		return null;
+	public ClientTO createMessage() {
+		ClientTO clientTO = new ClientTO("jon", "red", "yo", "jon", null, "good");
+		return clientTO;
 	}
 	
 	@RequestMapping(value ="/createUser", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)

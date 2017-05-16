@@ -3,41 +3,40 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:p="http://www.springframework.org/schema/p" xmlns="http://www.springframework.org/schema/security"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
-	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
 		http://www.springframework.org/schema/context 
 		http://www.springframework.org/schema/context/spring-context.xsd
 		http://www.springframework.org/schema/security 
-		http://www.springframework.org/schema/security/spring-security.xsd">
-
-	<http  entry-point-ref="customEntryPoint" use-expressions="true"
-		create-session="stateless" authentication-manager-ref="authenticationManager">
-		<intercept-url pattern="/user/message" access="hasRole('BASIC')" />
-		<intercept-url pattern="/user/login**" access="permitAll" />
-		<intercept-url pattern="/user/createUser**" access="permitAll" />
-
-		<form-login authentication-success-handler-ref="customSuccessHandler"/>
-
+		http://www.springframework.org/schema/security/spring-security-4.0.xsd">
 		
+		<context:component-scan base-package="com.main.config"></context:component-scan>
+		
+		<http pattern="/user/login" security="none"></http>
+		
+	<http pattern="/**" auto-config="true" use-expressions="true" create-session="stateless"  >
 
-		<logout invalidate-session="true" />
+		<http-basic/>
+			<custom-filter ref="tokenAuthenticationFilter" before="PRE_AUTH_FILTER"/>
+			<logout delete-cookies="JSESSIONID" />
+		
 		<csrf disabled="true" />
 	</http>
-
-
+	
+	
 	<authentication-manager alias="authenticationManager">
-		<authentication-provider ref="dataService">
+		<authentication-provider ref="authenticationService">
 		</authentication-provider>
 	</authentication-manager>
 
-	<beans:bean id="authenticationFilter"
-		class="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter">
+	 <beans:bean id="tokenAuthenticationFilter"
+		class="com.main.config.TokenAuthenticationFilter">
 		<beans:property name="authenticationManager" ref="authenticationManager" />
-        <beans:property name="postOnly" value="false" />
 		<beans:property name="authenticationSuccessHandler" ref="customSuccessHandler" />
-	</beans:bean>
+	</beans:bean> 
 	
-	<beans:bean id="brcypt" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></beans:bean>
-	
-	<beans:import resource="spring-config.xml" />
+	<beans:bean id="brcypt"
+		class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></beans:bean>
+		
+	<beans:bean id="dataService" class="com.main.service.DataService"></beans:bean>
 
 </beans:beans>

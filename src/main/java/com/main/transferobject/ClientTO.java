@@ -17,6 +17,7 @@ public class ClientTO implements Serializable {
 	private String lastName;
 	private Role role;
 	private String bio;
+	private String token;
 	
 	
 	public ClientTO() {
@@ -71,6 +72,16 @@ public class ClientTO implements Serializable {
 	public void setBio(String bio) {
 		this.bio = bio;
 	}
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
+	}
+	
+	
 	
 	
 

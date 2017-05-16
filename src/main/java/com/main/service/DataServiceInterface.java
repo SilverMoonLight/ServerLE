@@ -1,10 +1,13 @@
 package com.main.service;
 
+import com.main.config.JWTAuthenticationToken;
 import com.main.dataentity.Client;
 
 public interface DataServiceInterface {
 	
-		Client findClientByEmailAndPassword(String email, String password);
+		
 		
 		void saveClient(Client client);
+		
+		JWTAuthenticationToken retrieveUser(String username, String password);
 }

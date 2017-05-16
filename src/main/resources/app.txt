@@ -847,3 +847,684 @@ INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
 INFO - HHH000397: Using ASTQueryTranslatorFactory
 WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
 WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - Data Service password, email: Mar@gmail.com 123456test
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - token eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQkFTSUMiLCJwYXNzd29yZCI6IiQyYSQxMCQxR2tKajcuTDVNaXkxL1pER0JBSzRPRllUTzNZMEVmTGdyU0NVMzg5R0lmbW1DN2sybDV4NiIsImV4cCI6MTQ5NDgxNzg1OH0.D8RjK2QEGb-4x5wVAXDHpYBUgfbn0e-LCCpNS2T02pU
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - token eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQkFTSUMiLCJwYXNzd29yZCI6IiQyYSQxMCQxR2tKajcuTDVNaXkxL1pER0JBSzRPRllUTzNZMEVmTGdyU0NVMzg5R0lmbW1DN2sybDV4NiIsImV4cCI6MTQ5NDgxNzk0OH0.OSujO-r3NiARiAMjpNWQAi7WbuCM3fWkmGxtyAMQGKc
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
+INFO - token eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQkFTSUMiLCJwYXNzd29yZCI6IiQyYSQxMCQxR2tKajcuTDVNaXkxL1pER0JBSzRPRllUTzNZMEVmTGdyU0NVMzg5R0lmbW1DN2sybDV4NiIsImV4cCI6MTQ5NDg4OTc5M30.LTK64p1A0YlEsySGAxXAF6FVrlQkPMWNGggVjwRrIXg
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000412: Hibernate Core {4.3.11.Final}
+INFO - HHH000206: hibernate.properties not found
+INFO - HHH000021: Bytecode provider name : javassist
+INFO - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+INFO - HV000001: Hibernate Validator 5.2.4.Final
+INFO - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+INFO - HHH000397: Using ASTQueryTranslatorFactory
+WARN - Unrecognized value for "hibernate.hbm2ddl.auto": none
+WARN - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+INFO - Logging in...
+INFO - User nameVer@gmail.com Password 123456test
+INFO - Data Service password, email: Ver@gmail.com 123456test
+INFO - user found
