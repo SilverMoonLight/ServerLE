@@ -9,5 +9,5 @@ public interface DataServiceInterface {
 		
 		void saveClient(Client client);
 		
-		JWTAuthenticationToken retrieveUser(String username, String password);
+		String retrieveUser(String username, String password);
 }

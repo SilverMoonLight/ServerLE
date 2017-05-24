@@ -27,15 +27,15 @@ public class ClientController {
 	
 	@RequestMapping(value ="/login", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
-	public JWTAuthenticationToken loginUser(@RequestBody ClientTO clientTO) {
+	public String loginUser(@RequestBody ClientTO clientTO) {
 		logger.info("Logging in...");
 		logger.info("User name" + clientTO.getEmail() + " Password " +  clientTO.getPassword());
-		JWTAuthenticationToken token = dataservice.retrieveUser(clientTO.getEmail(), clientTO.getPassword());
+		String token = dataservice.retrieveUser(clientTO.getEmail(), clientTO.getPassword());
 		if(token != null) {
-			logger.info("token " + token.getCredentials());
+			logger.info("token " + token);
 			return token;
 		} else {
-			token = new JWTAuthenticationToken("no user found");
+			token = "no user found";
 			return token;
 		}
 	}

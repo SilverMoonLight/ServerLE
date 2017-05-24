@@ -30,7 +30,7 @@ public class DataService implements DataServiceInterface  {
 	
 
 	@Override
-	public JWTAuthenticationToken retrieveUser(String username, String password) {
+	public String retrieveUser(String username, String password) {
 		logger.info("Data Service password, email: " + username + " " + password );
 		
 		Client client = clientRepo.findClientByEmail(username);
@@ -38,7 +38,7 @@ public class DataService implements DataServiceInterface  {
 			logger.info("user found");
 			JWTUtils jwtUtils = new JWTUtils();
 			String token = jwtUtils.createJWT(client.getId() + "", "LE token", 100000, client);
-			return new JWTAuthenticationToken(token);
+			return token;
 		} else {
 			return null;
 		}

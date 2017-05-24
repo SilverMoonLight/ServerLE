@@ -40,8 +40,11 @@ public class TokenAuthenticationFilter extends AbstractAuthenticationProcessingF
         }
 
         String authToken = header.substring(7);
-
-        JWTAuthenticationToken authRequest = new JWTAuthenticationToken(authToken);
+        
+        JWTUtils utils = new JWTUtils();
+        
+        
+        JWTAuthenticationToken authRequest = utils.parseJWT(authToken);
 
         return getAuthenticationManager().authenticate(authRequest);
     }

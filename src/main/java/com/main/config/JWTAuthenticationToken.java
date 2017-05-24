@@ -1,40 +1,54 @@
 package com.main.config;
 
 
+import java.util.Collection;
+
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.GrantedAuthority;
 
 
 public class JWTAuthenticationToken extends UsernamePasswordAuthenticationToken {
 
 	
-   
-	public JWTAuthenticationToken(String jwtToken) {
-		super("","");
-		this.jwtToken = jwtToken;
-		setAuthenticated(true);
+	
+	
+	
+	public JWTAuthenticationToken(Object principal, Object credentials,
+			Collection<? extends GrantedAuthority> authorities) {
+		super(principal, credentials, authorities);
+		
 		
 	}
+
+
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 4941121308656700685L;
-	
-	
-    
-	private String jwtToken;
  
     
     
+	
+
+
 	@Override
 	public Object getCredentials() {
-		// TODO Auto-generated method stub
-		return jwtToken;
+		return super.getCredentials();
 	}
+
+
 	@Override
 	public Object getPrincipal() {
-		// TODO Auto-generated method stub
-		return null;
+		return super.getPrincipal();
 	}
+
+
+	@Override
+	public Collection<GrantedAuthority> getAuthorities() {
+		return super.getAuthorities();
+	}
+	
+	
  
   
 
