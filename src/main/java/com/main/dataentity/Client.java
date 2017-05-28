@@ -21,21 +21,24 @@ public class Client {
 		super();
 	}
 
-	
 
-	public Client(String email, String password, String firstName, String lastName, Role role, String bio) {
+
+	public Client(String email, String password, String firstName, String lastName, Role role, Country country,
+			Language language, String bio) {
 		super();
 		this.email = email;
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.role = role;
+		this.country = country;
+		this.language = language;
 		this.bio = bio;
 	}
 
 
-
-	public Client(int id, String email, String password, String firstName, String lastName, Role role, String bio) {
+	public Client(int id, String email, String password, String firstName, String lastName, Role role, Country country,
+			Language language, String bio) {
 		super();
 		this.id = id;
 		this.email = email;
@@ -43,9 +46,10 @@ public class Client {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.role = role;
+		this.country = country;
+		this.language = language;
 		this.bio = bio;
 	}
-
 
 
 	@Id
@@ -70,6 +74,14 @@ public class Client {
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="role_id")
 	private Role role;
+	
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="country_id")
+	private Country country;
+	
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="language_id")
+	private Language language;
 
 	@Column(name="client_bio")
 	private String bio;
@@ -130,14 +142,43 @@ public class Client {
 	public void setBio(String bio) {
 		this.bio = bio;
 	}
+	
+	
+	
+	public Country getCountry() {
+		return country;
+	}
+
+
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+	
+	
+
+
+	public Language getLanguage() {
+		return language;
+	}
+
+
+
+	public void setLanguage(Language language) {
+		this.language = language;
+	}
 
 
 
 	@Override
 	public String toString() {
 		return "Client [id=" + id + ", email=" + email + ", password=" + password + ", firstName=" + firstName
-				+ ", lastName=" + lastName + ", role=" + role + ", bio=" + bio + "]";
+				+ ", lastName=" + lastName + ", role=" + role + ", country=" + country + ", bio=" + bio + "]";
 	}
+
+
+
+	
 
 	
 	
