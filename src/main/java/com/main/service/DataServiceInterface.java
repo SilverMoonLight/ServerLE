@@ -15,4 +15,6 @@ public interface DataServiceInterface {
 		String retrieveUser(String username, String password);
 		
 		List<Client> findUsersbyUsernameAgeLanguageCountry(String username, int ageStart, int ageEnd, String language, String country);
+		
+		void updateClient(Client client);
 }

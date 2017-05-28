@@ -46,7 +46,7 @@ public class ClientController {
 	@RequestMapping(value = "/message", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
 	public ClientTO createMessage() {
-		ClientTO clientTO = new ClientTO("jon", "red", "yo", "jon", null, "good");
+		ClientTO clientTO = new ClientTO("jon", 0, "red", "yo", "jon", null, "good", null, null);
 		return clientTO;
 	}
 
@@ -55,18 +55,34 @@ public class ClientController {
 	public Client createCreateUser(@RequestBody ClientTO clientTO) {
 		logger.info("Creating user...");
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-		// dataService.saveClient(client);
-		return null;
+		Client client = new Client(clientTO.getEmail(), encoder.encode(clientTO.getPassword()), clientTO.getFirstName(), 
+				clientTO.getLastName(), clientTO.getRole(), clientTO.getCountry(), clientTO.getLanguage(), clientTO.getAge(), clientTO.getBio());
+		logger.info("Add user " + client.toString());
+		dataservice.saveClient(client);
+		logger.info("user was added");
+		return client;
+	}
+	
+	@RequestMapping(value ="/updateUser", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	@ResponseBody
+	public Client updateUser(@RequestBody ClientTO clientTO){
+		logger.info("Updating user");
+		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+		Client client = new Client(clientTO.getEmail(), encoder.encode(clientTO.getPassword()), clientTO.getFirstName(), 
+				clientTO.getLastName(), clientTO.getRole(), clientTO.getCountry(), clientTO.getLanguage(), clientTO.getAge(), clientTO.getBio());
+		dataservice.updateClient(client);
+		logger.info("updated client");
+		return client;
 	}
 
 	@RequestMapping(value = "/search", method = RequestMethod.POST)
 	@ResponseBody
 	public List<Client> searchUsers(@RequestBody ClientSearchTO clientSearchTO) {
-
+		logger.info("Searching for user");		
 		List<Client> users = dataservice.findUsersbyUsernameAgeLanguageCountry(clientSearchTO.getEmail(),
 				clientSearchTO.getStartAge(), clientSearchTO.getEndAge(), clientSearchTO.getLanguage(),
 				clientSearchTO.getCountry());
-		
+		logger.info("found " + users.size() + " users");
 		return users;
 	}
 }

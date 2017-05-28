@@ -2,6 +2,8 @@ package com.main.transferobject;
 
 import java.io.Serializable;
 
+import com.main.dataentity.Country;
+import com.main.dataentity.Language;
 import com.main.dataentity.Role;
 
 public class ClientTO implements Serializable {
@@ -12,28 +14,38 @@ public class ClientTO implements Serializable {
 	private static final long serialVersionUID = -4774607525472619531L;
 	
 	private String email;
+	private int age;
 	private String password;
 	private String firstName;
 	private String lastName;
 	private Role role;
 	private String bio;
-	private String token;
+	
+	private Country country;
+	private Language language;
 	
 	
 	public ClientTO() {
 		super();
 	}
 
-	public ClientTO(String email, String password, String firstName, String lastName, Role role, String bio) {
+	
+	
+	public ClientTO(String email, int age, String password, String firstName, String lastName, Role role, String bio, Country country, Language language) {
 		super();
 		this.email = email;
+		this.age = age;
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.role = role;
 		this.bio = bio;
+		this.country = country;
+		this.language = language;
 	}
-	
+
+
+
 	public String getEmail() {
 		return email;
 	}
@@ -73,14 +85,42 @@ public class ClientTO implements Serializable {
 		this.bio = bio;
 	}
 
-	public String getToken() {
-		return token;
+
+
+	public int getAge() {
+		return age;
 	}
 
-	public void setToken(String token) {
-		this.token = token;
+
+
+	public void setAge(int age) {
+		this.age = age;
 	}
-	
+
+
+
+	public Country getCountry() {
+		return country;
+	}
+
+
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+
+
+
+	public Language getLanguage() {
+		return language;
+	}
+
+
+
+	public void setLanguage(Language language) {
+		this.language = language;
+	}
+
 	
 	
 	

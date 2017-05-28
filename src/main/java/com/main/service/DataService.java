@@ -81,4 +81,10 @@ public class DataService implements DataServiceInterface {
 		return users;
 	}
 
+	@Override
+	public void updateClient(Client client) {
+		clientRepo.saveAndFlush(client);
+		
+	}
+
 }

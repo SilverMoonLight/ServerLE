@@ -1,5 +1,8 @@
 package com.main.dataentity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -7,24 +10,28 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
 @Entity
-@Table(name="Client")
+@Table(name = "Client")
 public class Client {
-	
-	
+
 	public Client() {
 		super();
+		userReceived = new ArrayList<>();
+		userSent = new ArrayList<>();
 	}
-
-
+	
+	
 
 	public Client(String email, String password, String firstName, String lastName, Role role, Country country,
-			Language language, String bio) {
+			Language language, int age, String bio) {
 		super();
 		this.email = email;
 		this.password = password;
@@ -33,12 +40,14 @@ public class Client {
 		this.role = role;
 		this.country = country;
 		this.language = language;
+		this.age = age;
 		this.bio = bio;
 	}
 
 
+
 	public Client(int id, String email, String password, String firstName, String lastName, Role role, Country country,
-			Language language, String bio) {
+			Language language, int age, String bio) {
 		super();
 		this.id = id;
 		this.email = email;
@@ -48,44 +57,57 @@ public class Client {
 		this.role = role;
 		this.country = country;
 		this.language = language;
+		this.age = age;
 		this.bio = bio;
 	}
 
 
+
 	@Id
-	@Column(name="client_id")
-	@SequenceGenerator(name="clientSeq", sequenceName="client_Seq", allocationSize=1)
-	@GeneratedValue(generator="clientSeq", strategy=GenerationType.SEQUENCE)
+	@Column(name = "client_id")
+	@SequenceGenerator(name = "clientSeq", sequenceName = "client_Seq", allocationSize = 1)
+	@GeneratedValue(generator = "clientSeq", strategy = GenerationType.SEQUENCE)
 	private int id;
-	
-	@Column(name="client_email", nullable= false, unique=true)
+
+	@Column(name = "client_email", nullable = false, unique = true)
 	private String email;
-	
-	@Column(name="client_password", nullable=false)
-	@Size(min=6)
+
+	@Column(name = "client_password", nullable = false)
+	@Size(min = 6)
 	private String password;
-	
-	@Column(name="client_firstName", nullable=false)
+
+	@Column(name = "client_firstName", nullable = false)
 	private String firstName;
-	
-	@Column(name="client_lastName", nullable=false)
+
+	@Column(name = "client_lastName", nullable = false)
 	private String lastName;
-	
-	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="role_id")
+
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "role_id")
 	private Role role;
-	
-	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="country_id")
+
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "country_id")
 	private Country country;
-	
-	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="language_id")
+
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "language_id")
 	private Language language;
 
-	@Column(name="client_bio")
-	private String bio;
+	@Column(name = "client_age")
+	@Max(140)
+	@Min(0)
+	private int age;
 
+	@Column(name = "client_bio")
+	private String bio;
+	
+	@ManyToMany
+	private List<Message> userSent;
+
+	@ManyToMany
+	private List<Message> userReceived;
+	
 	public int getId() {
 		return id;
 	}
@@ -118,7 +140,6 @@ public class Client {
 		this.firstName = firstName;
 	}
 
-	
 	public String getLastName() {
 		return lastName;
 	}
@@ -142,45 +163,67 @@ public class Client {
 	public void setBio(String bio) {
 		this.bio = bio;
 	}
-	
-	
-	
+
 	public Country getCountry() {
 		return country;
 	}
 
-
-
 	public void setCountry(Country country) {
 		this.country = country;
 	}
-	
-	
-
 
 	public Language getLanguage() {
 		return language;
 	}
 
-
-
 	public void setLanguage(Language language) {
 		this.language = language;
+	}
+	
+	
+
+	public int getAge() {
+		return age;
+	}
+
+
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
+
+	public List<Message> getUserSent() {
+		return userSent;
+	}
+
+
+
+	public void setUserSent(List<Message> userSent) {
+		this.userSent = userSent;
+	}
+
+
+
+	public List<Message> getUserReceived() {
+		return userReceived;
+	}
+
+
+
+	public void setUserReceived(List<Message> userReceived) {
+		this.userReceived = userReceived;
 	}
 
 
 
 	@Override
 	public String toString() {
-		return "Client [id=" + id + ", email=" + email + ", password=" + password + ", firstName=" + firstName
-				+ ", lastName=" + lastName + ", role=" + role + ", country=" + country + ", bio=" + bio + "]";
+		return "Client [email=" + email + ", password=" + password + ", firstName=" + firstName + ", lastName="
+				+ lastName + ", role=" + role + ", country=" + country + ", language=" + language + ", age=" + age
+				+ ", bio=" + bio + "]";
 	}
 
-
-
-	
-
-	
-	
 	
 }
