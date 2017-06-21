@@ -24,8 +24,6 @@ public class Client {
 
 	public Client() {
 		super();
-		userReceived = new ArrayList<>();
-		userSent = new ArrayList<>();
 	}
 	
 	
@@ -102,11 +100,7 @@ public class Client {
 	@Column(name = "client_bio")
 	private String bio;
 	
-	@ManyToMany
-	private List<Message> userSent;
-
-	@ManyToMany
-	private List<Message> userReceived;
+	
 	
 	public int getId() {
 		return id;
@@ -191,31 +185,6 @@ public class Client {
 	public void setAge(int age) {
 		this.age = age;
 	}
-
-
-
-	public List<Message> getUserSent() {
-		return userSent;
-	}
-
-
-
-	public void setUserSent(List<Message> userSent) {
-		this.userSent = userSent;
-	}
-
-
-
-	public List<Message> getUserReceived() {
-		return userReceived;
-	}
-
-
-
-	public void setUserReceived(List<Message> userReceived) {
-		this.userReceived = userReceived;
-	}
-
 
 
 	@Override
