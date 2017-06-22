@@ -47,8 +47,7 @@ public class DataService implements DataServiceInterface {
 
 	@Override
 	public void saveClient(Client client) {
-		// TODO Auto-generated method stub
-
+		clientRepo.save(client);
 	}
 
 	@Override
